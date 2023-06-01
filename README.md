@@ -1,2 +1,2 @@
-# Krunker-Assets
-here i make assets for krunker.
+# Assets
+here i make assets.
