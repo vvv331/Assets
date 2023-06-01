@@ -1,0 +1,288 @@
+  /* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotomono/v22/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_SeW4Ep0.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotomono/v22/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_QOW4Ep0.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotomono/v22/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_R-W4Ep0.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotomono/v22/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_S-W4Ep0.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotomono/v22/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_SuW4Ep0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotomono/v22/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_ROW4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+    /*font-family:'Roboto Mono'*/
+}
+
+
+.progress-button[data-perspective] .content { /*test string*/
+    background: rgba(55,55,55,1);
+    border: 1px solid #16FF00!important;
+    border-radius: 4px;
+    box-shadow: inset 0 0 4px 0 #16FF00, 0 0 4px 0 #16FF00;
+}
+.bg-success {
+    background: rgba(0,0,0,0)!important;
+}
+
+.hide-on-mobile strong {
+    color:rgb(255,255,255);
+}
+#menu-form div { /*Game Desc*/
+    color:rgb(255, 255, 255)!important;
+}
+
+/* MODAL CONTENT */
+.modal-content {
+    background-color: rgba(40,40,40, 0.9);
+    border: solid 6px rgba(28, 28, 28, .75);
+    border-radius:8px;
+}
+
+.modal-content div.modal-header, .modal-content div.modal-body {
+    color:white;
+}
+
+.modal-content div.border-top { /*Removes top border of a modal content*/
+    border-top:unset!important;
+}
+
+.item-shop-button div div.no-selection small { /*Shop item name*/
+    color:white;
+    background-color:unset;
+}
+
+.item-shop-button div.bg-light-green { /* Item BG when all requirements are met */
+    background-color: rgb(78, 141, 76);
+    border:4px solid rgba(34, 85, 34, .85)
+}
+.item-shop-button div.bg-light-red { /* Item BG when all requirements are not met */
+    background-color: rgb(137, 73, 73);
+    border:4px solid rgba(83, 33, 33, .85)
+}
+
+/*DISMISS BUTTON*/
+#modd-item-shop-dismiss-button {
+    background-color:rgb(209, 71, 71);
+    border-radius:6px;
+    margin-top:-0.5rem;
+    margin-bottom:-0.5rem;
+    margin-right:-0.5rem;
+    line-height:0.5;
+    font-size:1.5rem;
+}
+
+#modd-item-shop-dismiss-button span {
+    color:white;
+    text-shadow:unset;
+}
+
+#item-shop-modal ul.item-shop-navbar { /*We don't need navigation bar.*/
+    display:none;
+}
+
+#modd-item-shop-header { /*Shop header*/
+    color:white;
+    font-weight:600;
+    font-size:22px;
+}
+
+.modal-header div span.player-coins { /*plr coins*/
+    display:none;
+}
+
+.modal-header { /* Header of the modal */
+    border-bottom:unset;
+    background-color:rgba(0,0,0,0.3);
+}
+
+
+
+/*----------------------MAIN UI----------------------*/
+#leaderboard { /*LEADERBOARD*/
+    background-color: rgba(35,35,35,0.7);
+    border: 4px solid rgba(22, 22, 22, .7);
+    border-radius: 8px;
+}
+
+.score-div { /*PLAYER ATTRIBUTES*/
+    background-color: rgba(35,35,35,0.7);
+    border: 4px solid rgba(22, 22, 22, .7);
+    padding-left: 20px!important;
+    width:350px;
+    transform: translate(-40%);
+}
+
+
+.list-group-item {
+    background: rgb(50 50 50);
+}
+
+.list-group-item span {
+    color:rgb(255,255,255);
+    text-shadow: 0 0 0 rgba(0,0,0,0);
+    transition: text-shadow 0.4s cubic-bezier(.38,0,.29,1) 0.05s;
+}
+
+.list-group-item i {
+    color:rgb(255,255,255);
+    text-shadow: 0 0 0 rgba(0,0,0,0);
+    transition: text-shadow 0.4s cubic-bezier(.38,0,.29,1) 0.05s;
+}
+
+.list-group-item:hover span {
+    text-shadow: 3px 3px 4px #fff;
+}
+.list-group-item:hover i {
+    text-shadow: 3px 3px 4px #fff;
+}
+.d-inline {
+    color:rgb(255,255,255);
+}
+.player-coins {
+    text-shadow: 0 0 6px #000;
+}
+#login-div::after {
+    content: "May larynegulaja be with us.";
+    opacity:0.1;
+}
+
+.inventory-slot {
+    margin-right:2px;
+    margin-left:2px;
+    border-radius:8px;
+    background-color:rgba(37, 37, 37, .9);
+    border: 3px solid rgba(26, 26, 26, .9);
+}
+.inventory-slot.active {
+    background-color:rgba(37, 85, 37, .9);
+    border: 3px solid rgba(28, 71, 18, .9);
+}
+
+.inventory-slot div small.quantity {
+    left:4px;
+    right:unset;
+    text-align:left;
+}
+
+#inventory-slots-key-stroke {
+    transform:translate(3%,240%)
+}
+#inventory-slots-key-stroke div > p > small {
+    color:rgba(255,255,255,0.5)!important;
+}
+
+/* ATTRIBUTE BARS */
+#attribute-bars div.progress {
+    background-color:rgba(53, 53, 53, .75);
+    border:solid 3px rgba(44, 44, 44, .75);
+}
+#attribute-bars div.progress div.label { /*Attribute Label*/
+    color:white!important;
+    text-shadow:-1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black, 1px 1px 0 black;
+}
+
+/*-------------DIALOGUE-------------*/
+
+#modd-dialogue-options button {
+    background-color:rgb(73, 73, 73);
+    border:2px solid rgb(66, 66, 66)!important
+}
+
+#modd-dialogue-options button:hover {
+    background-color:rgb(93, 93, 93);
+}
+
+#modd-dialogue-options button span {
+    color:white
+}
+
+
+/*--------------TOOLTIP---------------*/
+.popover {
+    max-width: 400px!important;
+    background-color:rgba(55, 55, 55, .77);
+    border: solid 3px rgba(33, 33, 33, .77);
+    border-radius:5px;
+}
+
+.popover-body > div > div.caption > h4 {
+    color:white;
+    font-weight:700
+}
+
+.popover div.arrow {
+    display:none;
+}
+
+.popover div.popover-body div p {
+    color:white;
+}
+
+/*div.ui-text-top { text-shadow:1px 1px 1px black, 0 0 30px rgba(172, 66, 255, 1), 0 0 6px rgb(98, 42, 142); font-weight:600; font-size:24px;}*/
+
+div.ui-text-top {
+    background-color: rgba(35,35,35,0.7);
+    border: 4px solid rgba(22, 22, 22, .7);
+}
+
+
+/*----------------MENU----------------*/
+
+div.server-list-container label {color:white} /* server list label */
+
+#server-dropdown-container select {
+    background-color:rgb(53, 53, 53);
+    color:white;
+    border:3px solid rgb(40,40,40)
+}
+
+
+div.white-bg, #user-div > div.card { /* main menu and player card */
+    background-color: rgba(52, 52, 52, .8);
+    border: 4px solid rgba(39, 39, 39, .75);
+    border-radius: 6px;
+}
