@@ -1,0 +1,156 @@
+/* GAME STYLE */
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+:root {
+	--accent: rgba(34, 35, 41, .72);
+}
+
+* {
+	font-family: "Manrope";
+	font-weight: 600;
+}
+
+#my-score-div {
+	width:auto;
+	left:unset;
+	right:40px;
+	background-color:var(--accent);
+}
+
+
+#__next > div[style="position:absolute;right:0px;bottom:0px;text-align:right;width:240px"] {
+	width:auto!important;
+	right:5px!important;
+}
+
+/*--------SCOREBOARD--------*/
+
+.scoreboard-user-entry {
+	background-color:rgba(0,0,0,0.6);
+	padding: 3px 6px 3px 3px;
+	border-radius: 7px;
+	margin-bottom: 3px;
+	font-size:14px;
+}
+
+#scoreboard {
+	padding-right:4px!important;
+	height:auto;
+}
+
+#leaderboard {
+	background-color:var(--accent);
+	border-radius: 7px;
+	right:10px;
+	top:50px;
+	padding:10px;
+}
+
+.ui-text-top-id, .dark-bg {
+	background-color:var(--accent);
+}
+
+/*------------SHOP-----------*/
+
+.modal-content {
+	background-color:var(--accent);
+	color:white;
+}
+
+.item-shop-button > div.bg-light-red {
+	background-color:rgba(182, 94, 94, .61)
+}
+
+.item-shop-button > div.bg-light-green {
+	background-color:rgba(84, 165, 89, .61)
+}
+
+#modd-item-shop-dismiss-button {
+	color:white;
+}
+
+/*----------TOOLTIP----------*/
+.popover {
+    max-width: 400px!important;
+    background-color:rgba(27, 27, 27, .87);
+    border-radius:5px;
+}
+
+.popover-body > div > div.caption > h4 {
+    color:white;
+    font-weight:700
+}
+
+hr {
+	border-top: solid 1px rgb(126, 126, 126);
+}
+
+.popover div.arrow {
+    /*display:none;*/
+	filter: brightness(0.1) opacity(0.87);
+}
+
+.popover div.popover-body div p {
+    color:white;
+}
+
+/*---------TITLE PAGE---------*/
+
+#menu-column-main-container .white-bg {
+	background-color:var(--accent);
+	color:white;
+}
+
+.madeusinglink {
+	background-color:rgb(53, 53, 53)!important;
+	color:white!important;
+}
+
+/*-----------HTML ELEMENTS-------------*/
+
+select {
+	background-color:rgb(65,65,65)!important;
+	border-color:rgb(50,50,50)!important;
+	color:white!important;
+}
+
+.link, span[style="color: blue;"] {
+	color:rgb(62, 104, 255)!important;
+}
+
+
+#server-text::after {
+	position: absolute;
+	content:"hi";
+	right:290px;
+	width:300px;
+	text-align: right;
+	color:rgb(255,255,255,0.1)
+}
+
+/*---------ATTRIBUTES---------*/
+.pt-attribute-UvOpuABaRI {
+	color:rgb(134, 212, 255);
+	font-size:20px;
+	display:none;
+}
+.pt-attribute-points {
+	color:rgb(255, 251, 134);
+	font-size:20px;
+	display:none;
+}
+
+.pt-attribute-value-UvOpuABaRI::before {
+	content:"x"
+}
+.pt-attribute-value-UvOpuABaRI::after {
+	color:rgb(134, 212, 255);
+	content:" Speed";
+	font-size:20px;
+}
+
+.pt-attribute-value-points::after {
+	color:rgb(255, 251, 134);
+	font-size:20px;
+	content:" Points"
+}
